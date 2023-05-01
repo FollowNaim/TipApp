@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*,*::after,*::before{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ background: #201e2f;
+ font-family: 'Itim', sans-serif;
+ box-sizing: border-box;
+}
+body,html{
+ align-items: center;
+ font-family: 'Itim', sans-serif;
+}
+/* Header Area */
+.logoArea{
+ background: #00feb5;
+ margin-bottom: 10px;
+ border-radius: 5px;
+ margin-top: 20%;
+}
+.logoArea h4{
+ text-align: center;
+ margin: 0;
+}
+
+/*/Main Css */
+.mainbody{
+ width: 90%;
+ max-width: 600px;
+ margin-left: 20px;
+}
+.form{
+ background: #2c3e50;
+ color: white;
+ font-size: 16px;
+}
+.form input{
+ display: block;
+ border: none;
+ outline: none;
+ width: 100%;
+ padding: 10px 15px;
+ font-family: 'Itim', sans-serif;
+ border-radius: 10px;
+ margin: 10px 0px;
+ background: #34495e;
+ color: white;
+}
+.peopleArea{
+ font-size: 18px;
+}
+.peopleArea ul{
+ list-style: none;
+ display: flex;
+}
+#minus{
+ background: #00d2d3;
+}
+#people{
+ font-size: 18px;
+ text-align: center;
+ margin: 18px 4px;
+}
+#Plus{
+ background: #ee5253;
+}
+#minus,#Plus{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ text-align: center;
+ margin: 10px 5px;
+ cursor: pointer;
+ padding: 7px;
+}
+.innerPeople{
+ display: flex;
+ justify-content: space-between;
+}
+.billCalculate{
+ background: #a29bfe;
+ border: 0;
+ font-size: 15px;
+ padding: 16px 15px;
+ border-radius: 15px;
+ margin: 5px 0px;
+ cursor: pointer;
+ font-family: 'Itim', sans-serif;
+}
+
+/* Total/Summery */
+.totalSum{
+ background: #121617;
+ margin-top: 20px;
+ color: white;
+ display: none;
+ transition: 0.5s;
+}
+.totalSum div{
+ display: flex;
+ justify-content: space-between;
+}
+.totalSum hr{
+ border: 2px dashed #ddd;
+ margin-bottom: 10px;
+}
+.totalSum h2{
+ color: #00feb5;
+ margin-bottom: 20px;
+ font-size: 22px;
+ text-transform: uppercase;
+}
+.totalSum h3{
+ color: wgite;
+ margin-bottom: 10px;
+ font-size: 16px;
+ text-transform: uppercase;
+}
+.logoArea, .form, .totalSum{
+ padding: 25px 35px;
+ border-radius: 10px;
+}
